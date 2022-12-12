@@ -1,0 +1,2 @@
+dic. 10, 2022 7:32:02 P. M. Util.LoggerManager addNewLog
+ADVERTENCIA: No se encontro el archivo de configuración seleccionadojava.nio.file.NoSuchFileException: src\gns\DataBaseConfig.json

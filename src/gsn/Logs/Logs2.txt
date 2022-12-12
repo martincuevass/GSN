@@ -1,0 +1,2 @@
+dic. 11, 2022 9:55:56 P. M. Util.LoggerManager addNewLog
+ADVERTENCIA: Controlador inicializado

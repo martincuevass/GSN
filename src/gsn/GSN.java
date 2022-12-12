@@ -4,9 +4,18 @@
  */
 package gsn;
 
-import Tools.TableTool;
-import javax.swing.JFrame;
-import javax.swing.JTable;
+
+
+import Model.CsvTool;
+import Model.JsonTool;
+import Model.TxtTool;
+import Util.CsvReader;
+import Util.Initializer;
+import Util.JsonReader;
+import Util.LoggerManager;
+import Util.TableTool;
+import Util.TxtReader;
+import java.io.IOException;
 
 /**
  *
@@ -17,8 +26,11 @@ public class GSN {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        
+    public static void main(String[] args) throws IOException {
+        LoggerManager logger = LoggerManager.getTheLogger();
+        Initializer initializer = new Initializer();
+        initializer.initClass();
+        logger.addNewLog("Controlador inicializado");
     }
     
 }
