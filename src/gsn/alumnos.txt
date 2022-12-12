@@ -1,0 +1,4 @@
+nombre,edad
+juan,21
+martin,31
+pablo,25
